@@ -2416,7 +2416,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     align-items: center;
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 34px;
     color: var(--rr-theme-primary);
     font-family: var(--rr-ff-heading);
@@ -9912,7 +9912,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     color: var(--rr-common-white);
     font-family: var(--rr-ff-heading);
     font-weight: var(--rr-fw-medium);
-    font-size: 16px;
+    font-size: 20px;
     line-height: 18px;
     text-transform: uppercase;
 }
