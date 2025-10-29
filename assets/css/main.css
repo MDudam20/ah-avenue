@@ -7611,6 +7611,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     .banner__slider__arrow {
         padding: 10px 15px;
         gap: 35px;
+         flex-direction: row;
     }
 }
 
@@ -7619,6 +7620,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     .banner__slider__arrow {
         padding: 10px 15px;
         gap: 35px;
+       
     }
 }
 
@@ -8168,6 +8170,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
     .banner .gallery-thumbs {
         width: inherit;
+        display: none;
     }
 }
 
@@ -15697,7 +15700,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: var(--rr-theme-primary);
+    background-color: #000;
 }
 
 .about-company__box .logo img {
