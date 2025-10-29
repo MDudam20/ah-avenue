@@ -162,18 +162,28 @@
       Preloader activation with multiple
      ========================================*/
     const preloaders = $("[data-preloader]");
-    preloaders.each(function(index, item) {
-        if ($(item).data('preloader') === 'active') {
-            if ($(item).data('loaded') === 'progress') {
-                const RRDevsInit = new RRDEVS();
-                $(".preloader-close").on("click", () => RRDevsInit.LoadedAfterProgress('click'));
-                $(window).on('load', () => RRDevsInit.LoadedAfterProgress('load'));
-            } else if ($(item).data('loaded') === 'doted') {
-                $(".preloader-close").on("click", () => RRDEVS.LoadedAfterDoted());
-                $(window).on('load', () => RRDEVS.LoadedAfterDoted());
-            }
+preloaders.each(function(index, item) {
+
+    if ($(item).data('preloader') === 'active') {
+
+        if ($(item).data('loaded') === 'progress') {
+            const RRDevsInit = new RRDEVS();
+
+            $(".preloader-close").on("click", () => RRDevsInit.LoadedAfterProgress('click'));
+
+            // ✅ Faster event
+            $(document).ready(() => RRDevsInit.LoadedAfterProgress('dom'));
+
+        } else if ($(item).data('loaded') === 'doted') {
+
+            $(".preloader-close").on("click", () => RRDEVS.LoadedAfterDoted());
+
+            // ✅ Faster event
+            $(document).ready(() => RRDEVS.LoadedAfterDoted());
         }
-    });
+    }
+});
+
 
     window.addEventListener('resize', function() {
         gsap.globalTimeline.clear();
