@@ -6463,7 +6463,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     transform: translate(0, -100%);
 }
  .header-2 .header__logo img {
-        max-width: 300px;
+        max-width: 270px;
     }
     @media (max-width: 1250px) {
     .header-2 .header__logo img {
@@ -6845,7 +6845,7 @@ only screen and (min-width: 1400px) and (max-width: 1600px) {
 }
 
 .header-2 .rr-header-contact-btn .rr-btn__header {
-    padding: 12.5px 33px;
+    padding: 12.5px 15px;
 }
 
 .header-2 .rr-header-message {
@@ -9915,7 +9915,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     color: var(--rr-common-white);
     font-family: var(--rr-ff-heading);
     font-weight: var(--rr-fw-medium);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 18px;
     text-transform: uppercase;
 }
@@ -15424,14 +15424,15 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .about-company__thumb-1 {
-    width: 404px;
+        width: 270px;
     height: 420px;
     background-color: var(--rr-common-white);
     box-shadow: 3px 4px 10px rgba(27, 26, 26, 0.6);
     border: 4px solid #000;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex
+;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -15439,8 +15440,9 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     -ms-flex-pack: center;
     justify-content: center;
     position: absolute;
-    top: 105px;
+    top: 200px;
     left: 0;
+
 }
 
 @media (max-width: 575px),
@@ -15461,7 +15463,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .about-company__thumb-2 {
-    width: 330px;
+    width: 265px;
     position: absolute;
     top: 0;
     right: 0;
@@ -19127,7 +19129,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     -webkit-box-shadow: 0px 1px 3px 0px rgba(8, 10, 11, 0.1);
     box-shadow: 0px 1px 3px 0px rgba(8, 10, 11, 0.1);
     border: 2px solid #dbad4b;
-    height: 400px;
+    height: 470px;
 }
 @media (max-width: 1250px) {
     .latest-service__item {
