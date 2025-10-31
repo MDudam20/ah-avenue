@@ -859,7 +859,7 @@ preloaders.each(function(index, item) {
         centeredSlides: true,
         clickable: true,
         autoplay: {
-            delay: 3000,
+            delay: 2000,
         },
         navigation: {
             prevEl: ".our-floor__slider__arrow-prev",
