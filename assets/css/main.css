@@ -14573,7 +14573,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     padding: 30px;
     background: #dbad4b;
     border: 4px solid #ffffff;
-    
+    border-radius: 20px;
     color: #fff;
     display: block;
     visibility: visible;
@@ -14581,7 +14581,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     transform: none;
     margin-top: 20px;
     height: 550px;
-
+box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
 }
 @media (max-width:1200px) {
     .our-team__item__socail {
@@ -15478,7 +15478,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
         position: inherit;
         max-width: 100%;
         width: 1005px;
-        margin-bottom: 150px;
+        margin-bottom: 225px;
     }
 }
 
