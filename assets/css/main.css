@@ -448,7 +448,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     --rr-common-selection: #3C66FA;
     --rr-color-white: #fff;
     --rr-body-primary: #ffffff;
-    --rr-theme-primary: #dbad4b;
+    --rr-theme-primary: #ffaf03;
     --rr-heading-primary: #080A0B;
     --rr-text-body: #767676;
     --rr-text-p: #767676;
@@ -7687,7 +7687,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     overflow: hidden;
     position: relative;
     /* background: rgba(9, 15, 18, 0.4); */
-   
+   height: 750px;
 }
 
 .banner__item:after {
@@ -9915,7 +9915,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     display: inline-block;
     color: var(--rr-common-white);
     font-family: var(--rr-ff-heading);
-    font-weight: var(--rr-fw-medium);
+    font-weight: 800;
     font-size: 18px;
     line-height: 18px;
     text-transform: uppercase;
@@ -14003,9 +14003,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
     font-family: var(--rr-ff-heading);
     font-style: normal;
     text-transform: capitalize;
-    color: var(--rr-common-white);
+    color: #ffaf03;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 30px;
 }
 
@@ -14572,7 +14572,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     position: relative;
     width: 100%;
     padding: 30px;
-    background: #dbad4b;
+    background: #ffaf03;
     border: 4px solid #ffffff;
     border-radius: 20px;
     color: #fff;
@@ -14589,7 +14589,7 @@ box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
     position: relative;
     width: 100%;
     padding: 30px;
-    background: #dbad4b;
+    background: #ffaf03;
     border: 4px solid #ffffff;
     
     color: #fff;
@@ -14604,8 +14604,8 @@ box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
 }
 /* Title + Designation */
 .our-team__item__socail h6 {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 900;
     text-align: center;
     color: #000;
     margin-bottom: 5px;
@@ -14626,7 +14626,7 @@ box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
     font-size: 18px;
     line-height: 1.8;
     margin-bottom: 15px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* REMOVE ALL HOVER EFFECTS */
@@ -15662,7 +15662,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     }
 }
 .about-company__wrapper ul li h6{
-    color:#dbad4b;
+    color:#ffaf03;
 }
 
 .about-company__wrapper ul li {
@@ -17262,7 +17262,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .contact-us__info-item {
-    padding: 54px 50px;
+    padding: 54px 27px;
     border: 1px solid rgba(8, 10, 11, 0.7);
     text-align: center;
     margin-bottom: 30px;
@@ -17270,7 +17270,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
 }
 .contact-us__info-item:hover{
-    background-color:#dbad4b ;
+    background-color:#ffaf03 ;
 }
 .contact-us__info-item a{
     color: #000;
@@ -17650,13 +17650,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .protfolio__tab button.active {
     color: #fff;
     border-color: var(--rr-theme-primary);
-    background-color: #dbad4b;
+    background-color: #ffaf03;
 }
 
 .protfolio__item {
     position: relative;
     margin-bottom: 30px;
-  border: 4px solid #dbad4b;
+  border: 4px solid #ffaf03;
   padding: 10px;
   box-shadow: 2px 3px 4px rgba(185, 142, 118,0.5);
 }
@@ -19156,7 +19156,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    border: 3px solid #dbad4b;
+    border: 3px solid #ffaf03;
     padding: 5px;
 }
 
@@ -19210,7 +19210,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     background-color: transparent;
     -webkit-box-shadow: 0px 1px 3px 0px rgba(8, 10, 11, 0.1);
     box-shadow: 0px 1px 3px 0px rgba(8, 10, 11, 0.1);
-    border: 2px solid #dbad4b;
+    border: 2px solid #ffaf03;
     height: 470px;
 }
 @media (max-width: 1250px) {
@@ -19277,7 +19277,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .latest-service__content .title-animation a{
-    color: #dbad4b !important;
+    color: #ffaf03 !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
 (max-width: 575px) {
@@ -19286,7 +19286,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     }
 }
 .latest-service__content h6{
-    color: #dbad4b;
+    color: #ffaf03;
     font-size: 20px;
 }
 .latest-service__content .read-more {
@@ -21453,7 +21453,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   height: 100px;
   object-fit:cover;
   transition: transform 0.3s ease;
-  border: 3px solid #dbad4b;
+  border: 3px solid #ffaf03;
   padding: 3px;
 
   border-radius: 50%;
@@ -21594,8 +21594,8 @@ bottom: 100%;
     color: #fff;
 }
 .blink {
-  animation: blink 1.2s infinite;
-  color: #B98E76;
+  /* animation: blink 1.2s infinite; */
+  color: #ffaf03;
 }
 
 @keyframes blink {
@@ -21605,6 +21605,9 @@ bottom: 100%;
   50% {
     opacity: 0.3;
   }
+}
+.rera img{
+    width: 40%;
 }
 /* Modal Base */
 .modern-modal {
@@ -21684,7 +21687,7 @@ bottom: 100%;
 
 /* Submit Button */
 .custom-form .btn-theme {
-  background:   #dbad4b;
+  background:   #ffaf03;
 
   border: none;
   color: #fff;
@@ -21699,7 +21702,7 @@ bottom: 100%;
 }
 
 .btn-theme:hover {
-  background: linear-gradient(135deg, #fff, #dbad4b);
+  background: linear-gradient(135deg, #fff, #ffaf03);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -21717,7 +21720,7 @@ bottom: 100%;
 /* Sticky Button Container */
 .sticky-buttons {
   position: fixed;
-  right: 3%;
+  right: 4%;
   bottom: 115px;
   display: flex;
   flex-direction: column;
@@ -21874,7 +21877,7 @@ bottom: 100%;
 
 .mp-frame img {
   width: 100%;
-  border: 4px solid #dbad4b;
+  border: 4px solid #ffaf03;
   border-radius: 12px;
   box-shadow: 0 15px 50px rgba(0,0,0,0.25);
   transition: transform .35s ease-out;
