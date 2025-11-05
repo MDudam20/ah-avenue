@@ -2060,15 +2060,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 575px) {
     .offcanvas__logo a img {
-        width: 150px;
+        width: 200px;
     }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     .offcanvas__logo a img {
         width: 130px;
     }
-}
+} */
 
 .offcanvas__content {
     padding-bottom: 45px;
@@ -14572,7 +14572,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     position: relative;
     width: 100%;
     padding: 30px;
-    background: #ffaf03;
+    background: #e5b245;
     border: 4px solid #ffffff;
     border-radius: 20px;
     color: #fff;
@@ -14589,7 +14589,7 @@ box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
     position: relative;
     width: 100%;
     padding: 30px;
-    background: #ffaf03;
+    background: #e5b245;
     border: 4px solid #ffffff;
     
     color: #fff;
@@ -14622,7 +14622,7 @@ box-shadow: 4px 5px 10px rgba(255, 255, 255, 0.8);
 /* Paragraph text */
 .our-team__item__socail p {
     color: #2e2d2d;
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     line-height: 1.8;
     margin-bottom: 15px;
@@ -19173,7 +19173,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
     .about-us-3__media .image-4 {
         width: 100%;
-        height: 100%;
+        /* height: 100%; */
         -o-object-fit: cover;
         object-fit: cover;
     }
