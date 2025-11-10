@@ -7881,6 +7881,14 @@ only screen and (min-width: 768px) and (max-width: 991px) {
         -webkit-transform: translate(50%, -50%);
     }
 }
+@media (max-width: 1100px) {
+    .banner__item {
+    overflow: hidden;
+    position: relative;
+    /* background: rgba(9, 15, 18, 0.4); */
+   height: 5d50px;
+}
+}
 
 .banner__item-content-link .popup-video .icon {
     width: 126px;
