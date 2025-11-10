@@ -15659,7 +15659,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     display: -ms-flexbox;
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
