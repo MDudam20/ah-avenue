@@ -15166,6 +15166,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
     .filter__container {
         height: 200px;
     }
+    .latest-project__text p{
+      font-size: 20px;
+    }
 }
 
 .filter__container .pic {
@@ -15647,6 +15650,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
     gap: 60px;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -20483,6 +20487,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__left-content__item h5 {
     margin-bottom: 10px;
     font-weight: 500;
+    font-size: 28px;
 }
 
 .services__left-content__item:not(:last-child) {
@@ -20495,6 +20500,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
     .services__left-content__item:not(:last-child) {
         padding-bottom: 20px;
     }
+    .services__left-content__item h5 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
 }
 
 .services__right-content {
@@ -21457,8 +21467,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .service-icon {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   object-fit:cover;
   transition: transform 0.3s ease;
   border: 3px solid #ffaf03;
@@ -21945,6 +21955,11 @@ bottom: 100%;
     .banner__item{
         height: auto;
     }
+    .master-premium {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
 }
 @media (max-width: 500px) {
     .latest-service__item {
