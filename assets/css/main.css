@@ -19199,6 +19199,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .about-us-3__content {
     padding-left: 40px;
 }
+.about-us-3__content p{
+    text-align: justify;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px),
 only screen and (min-width: 768px) and (max-width: 991px),
@@ -19223,6 +19226,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
         -o-object-fit: cover;
         object-fit: cover;
     }
+    .about-us-3__content p{
+    text-align: center;
+}
 }
 
 .latest-service__bg {
